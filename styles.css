@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+	--primary-color: #848771
+}
+
+.canvas {
+	margin: 200px auto 0;
+	height: 400px;
+	width: 300px;
+	position: relative;
+	
+	animation: makeAppearence 8s 2s forwards;
+}
+
+@keyframes makeAppearence {
+	0% {
+		opacity: 0;
+	}
+	
+	100% {
+		opacity: 1;
+	}
+}
+
+.grey-layer {
+	height: 100%;
+	width: 100%;
+	background-color: var(--primary-color);
+}
+
+.main-black-layer {
+	width: 45%;
+	height: 92%;
+	background-color: black;
+	position: absolute;
+	bottom: 3px;
+	right: 20%;
+	z-index: 1;
+}
+
+.black-minor-layer {
+	background-color: black;
+	width: 21.5%;
+	height: 296px;
+	position: absolute;
+	left: 35%;
+	top: 29px;
+	z-index: 3;
+}
+
+.white-layer {
+	width: 125px;
+	height: 305px;
+	background-color: white;
+	position: absolute;
+	left: 35%;
+	top: 0;
+	z-index: 1;
+	transform: rotate(20deg);
+	transform-origin: top left;
+}
+
+.white-square {
+	background-color: white;
+	height: 148.5px;
+	width: 145.5px;
+	position: absolute;
+	bottom: 65px;
+	left: 162px;
+	transform: rotate(20deg);
+	transform-origin: top left;
+	z-index: 2; 
+}
+
+.triangle {
+	background-color: white;
+	height: 30px;
+	width: 70px;
+	position: absolute;
+	right: 26px;
+	bottom: 27px;
+	transform: rotate(-70deg);
+}
+
+#description{
+	text-align: center;
+	animation: makeAppearence 8s 2s forwards;
+}
+
+#description > p {
+	margin: 0;
+}
+
