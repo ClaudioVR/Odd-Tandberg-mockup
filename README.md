@@ -1,6 +1,6 @@
 # Odd Tandberg mockup
 
-Another creative project where I put CSS to use to recreate real life art. 
+Another creative project where I put CSS to use to recreate real life art. Check out the hover effects!
 
 In this case, I based my myself on graphic art by Odd Tandberg (a renown Norwegian artist).
 
