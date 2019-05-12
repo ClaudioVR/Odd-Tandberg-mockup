@@ -1,9 +1,10 @@
 # Odd Tandberg mockup
 
-This is just another creative project of mine. 
+Another creative project where I put CSS to use to recreate real life art. 
 
 In this case, I based my myself on graphic art by Odd Tandberg (a renown Norwegian artist).
 
-It is a fun excercise that puts my CSS skills to work and challenges me to push my learning curve, always seeking out new styling techniques. 
+Check it out here: https://claudiovr.github.io/Odd-Tandberg-mockup/
+
 
 
