@@ -5,6 +5,7 @@
 }
 
 body {
+	padding-top: 5rem;
 	font-family: monospace;
 	height: 100vh;
 	display: flex;
@@ -14,6 +15,7 @@ body {
 }
 
 .canvas {
+	margin-top: 5rem;
 	height: 400px;
 	width: 300px;
 	position: relative;
